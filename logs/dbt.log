@@ -42,3 +42,15 @@ Runtime Error
 [0m22:15:28.832589 [debug] [MainThread]: Command `dbt run` failed at 22:15:28.832129 after 0.78 seconds
 [0m22:15:28.833820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A98053490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A98202E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A982585A0>]}
 [0m22:15:28.835094 [debug] [MainThread]: Flushing usage events
+[0m22:19:19.753444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E4619C2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E48AD7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E48AD7B10>]}
+
+
+============================== 22:19:19.769364 | 7d985b76-9a6d-4c7b-b886-15f74e672c5e ==============================
+[0m22:19:19.769364 [info ] [MainThread]: Running with dbt=1.7.9
+[0m22:19:19.771950 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LOTUS\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'D:\\LOTUS\\Documents\\Formation_data_analyst\\Cours\\quetes\\ETL-ELT\\github\\quete_DBT\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m22:19:20.014188 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "quete_etl_elt_DBT", target "dev" invalid: ['schema'] is not valid under any of the given schemas
+[0m22:19:20.017208 [debug] [MainThread]: Command `dbt run` failed at 22:19:20.016740 after 0.98 seconds
+[0m22:19:20.018632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E48D7DA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E48DF0950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E48D52250>]}
+[0m22:19:20.020165 [debug] [MainThread]: Flushing usage events
